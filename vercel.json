@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/qris.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/qris", "dest": "/api/qris.js" }
+  ]
+}
